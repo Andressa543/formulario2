@@ -1,0 +1,36 @@
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: rgb(175, 125, 221);
+}
+tr:nth-child(even){
+    background-color: rgb(165, 90, 214);
+}
+tr:hover{
+    background-color: rgb(179, 147, 209);
+}
+h1{
+    font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.logo.img{
+    width: 100px;
+    height: auto;
+    margin-right: 20px; 
+    margin-left: 50px;
+}
